@@ -1,0 +1,477 @@
+{
+  "profile": {
+    "name": "Sumit Suresh Madhav",
+    "title": "Data Analyst",
+    "organization": "Dallas, TX | 8+ Years Experience",
+    "profileImage": "assets/sumit-profile.jpg",
+    "cvPath": "assets/Sumit_DA_Resume.pdf",
+    "metrics": [
+      "8+ Years Experience",
+      "12M+ Txns/Day Pipelines",
+      "90% Fewer Manual Reports",
+      "40% Faster SQL Reconciliations"
+    ]
+  },
+
+  "bio": {
+    "introduction": "<span class=\"highlight\">Data Analyst</span> with <span class=\"highlight\">8+ years</span> of experience turning complex data into actionable insights that drive strategic decision-making. Highly skilled in <span class=\"highlight\">SQL, Python, Tableau, and Excel</span> with proven impact across finance and healthcare.",
+    "background": "Expertise spans <span class=\"highlight\">data cleaning & wrangling, statistical analysis, A/B testing, regression modeling, and forecasting</span>. Adept at building automated reporting, KPI frameworks, and stakeholder-ready dashboards that improve performance and reduce manual effort.",
+    "researchFocus": "Professional focus on <span class=\"highlight\">risk and compliance analytics</span>, <span class=\"highlight\">time-series forecasting</span>, and <span class=\"highlight\">decision support dashboards</span>. Comfortable across the stack from SQL optimization to BI development and data pipeline automation."
+  },
+
+  "contact": {
+    "email": "madhavsumit369@gmail.com",
+    "phone": "+1 (813) 797-9411",
+    "location": "Dallas, TX",
+    "linkedin": null,
+    "github": null,
+    "googleScholar": null,
+    "twitter": null,
+    "website": null,
+    "trailhead": null
+  },
+
+  "navigation": [
+    {"label": "About", "href": "#banner"},
+    {"label": "Experience", "href": "#publications"},
+    {"label": "Projects", "href": "#projects"},
+    {"label": "Skills", "href": "#skills"},
+    {"label": "Education", "href": "#education"},
+    {"label": "Contact", "href": "mailto:madhavsumit369@gmail.com"}
+  ],
+
+  "publications": [
+    {
+      "id": "jpmorgan-chase",
+      "title": "Data Analyst",
+      "authors": "JPMorgan Chase & Co.",
+      "venue": "Apr 2023 – Present",
+      "description": "<div class='impact-metrics'><span class='metric'>12M+ Daily Txns</span><span class='metric'>90% ↓ Static Reports</span><span class='metric'>40% Faster SQL</span></div><br/><strong>Key Achievements:</strong><br/>• Designed and maintained automated data pipelines using SQL and Python to process <strong>12M+ daily financial transactions</strong> for end-of-day reporting across credit, lending, and asset management units<br/>• Built <strong>Tableau dashboards</strong> for intraday exposure, trade volume, and margin movement, <span class='highlight'>reducing reliance on static Excel reports by 90%+</span><br/>• Partnered with compliance to create exception reports for anomalous trades, <span class='highlight'>flagging 3–5 potential violations per quarter</span><br/>• Optimized SQL for post-trade reconciliation via indexing and query restructuring, <span class='highlight'>cutting runtime by ~40%</span><br/>• Performed correlation analysis on portfolio risk factors across multiple product lines to inform quarterly risk policy updates<br/>• Documented data logic, transformations, and governance in Confluence to improve audit readiness and onboarding",
+      "image": "images/org/jpmorgan-chase.svg",
+      "links": { "paper": null, "github": null, "status": null }
+    },
+    {
+      "id": "pnc-financial",
+      "title": "Data Analyst",
+      "authors": "PNC Financial Services",
+      "venue": "Feb 2022 – Mar 2023",
+      "description": "<div class='impact-metrics'><span class='metric'>7 Data Sources</span><span class='metric'>18% ↑ Forecast Acc.</span><span class='metric'>25+ Hrs/Month Saved</span></div><br/><strong>Key Achievements:</strong><br/>• Consolidated customer, transaction, and credit data from <strong>7 systems</strong> using PostgreSQL and Python, <span class='highlight'>cutting reconciliation time by 30%</span><br/>• Built time-series models (ARIMA, Prophet) to project default rates, <span class='highlight'>improving forecast accuracy by 18%</span><br/>• Delivered interactive <strong>Power BI</strong> dashboards that enabled daily monitoring of loan cycle times, <span class='highlight'>reducing average processing by 2.4 days</span><br/>• Ran <strong>A/B tests</strong> on segmentation strategies; <span class='highlight'>increased cross-sell uptake by 12%</span><br/>• Automated executive reporting to replace manual Excel workflows, <span class='highlight'>saving 25+ hours per month</span><br/>• Defined KPI logic and validation rules to standardize weekly scorecards",
+      "image": "images/org/pnc-financial.svg",
+      "links": { "paper": null, "github": null, "status": null }
+    },
+    {
+      "id": "humana",
+      "title": "Data Analyst",
+      "authors": "Humana",
+      "venue": "Apr 2019 – Jun 2021",
+      "description": "<div class='impact-metrics'><span class='metric'>35% ↓ Prep Time</span><span class='metric'>9% ↑ Readmission Pred.</span><span class='metric'>HIPAA Compliant</span></div><br/><strong>Key Achievements:</strong><br/>• Integrated claims, pharmacy, and clinical data across EHR systems into unified tables for risk stratification, <span class='highlight'>reducing preprocessing time by 35%</span><br/>• Built <strong>logistic regression</strong> models in R to predict 30-day readmission, <span class='highlight'>improving identification accuracy by 9%</span><br/>• Delivered parameterized <strong>Tableau</strong> dashboards on plan utilization to inform product design adjustments<br/>• Applied de-identification techniques for <strong>HIPAA</strong> compliance to enable secure data sharing<br/>• Authored SQL transformation documentation and lineage to support CMS audits",
+      "image": "images/org/humana.svg",
+      "links": { "paper": null, "github": null, "status": null }
+    },
+    {
+      "id": "tenet-healthcare",
+      "title": "Data Analyst",
+      "authors": "Tenet Healthcare",
+      "venue": "Feb 2016 – Dec 2018",
+      "description": "<div class='impact-metrics'><span class='metric'>60+ Facilities</span><span class='metric'>12% ↓ Discharge Delays</span><span class='metric'>11% ↓ Claim Rejections</span></div><br/><strong>Key Achievements:</strong><br/>• Monitored discharge patterns across <strong>60+ hospitals</strong>, identifying bottlenecks and <span class='highlight'>reducing delays by 12% YoY</span><br/>• Led ETL jobs in SQL Server to consolidate vitals and procedures, <span class='highlight'>cutting nightly refresh from 8h to &lt;2h</span><br/>• Conducted root cause analysis on 30-day readmissions, contributing to protocol changes that <span class='highlight'>reduced unplanned returns by 5%</span><br/>• Built data quality checks for billing systems, <span class='highlight'>lowering claim rejections by 11%</span><br/>• Delivered Excel/VBA reports for scheduling and staffing to aid planning and reduce overtime",
+      "image": "images/org/tenet-healthcare.png",
+      "links": { "paper": null, "github": null, "status": null }
+    },
+    {
+      "id": "cybage-software",
+      "title": "SQL Developer",
+      "authors": "Cybage Software",
+      "venue": "Jan 2014 – Sep 2014",
+      "description": "<div class='impact-metrics'><span class='metric'>45% Faster SQL</span><span class='metric'>15M Records Migrated</span><span class='metric'>99.9% Uptime</span></div><br/><strong>Key Achievements:</strong><br/>• Created optimized stored procedures for large financial clients, <span class='highlight'>reducing execution times by up to 45%</span><br/>• Developed and deployed ETL pipelines with SSIS for daily batch updates, <span class='highlight'>cutting refresh delays by &gt;2 hours</span><br/>• Validated 50+ complex views/joins for legacy BI dashboards prior to major release<br/>• Maintained SQL Server Agent jobs and error logs to ensure <strong>99.9% uptime</strong> of scheduled refreshes<br/>• Built migration scripts to move <strong>15M+ records</strong> during decommissioning with <strong>zero data loss</strong>",
+      "image": "images/cybage-software-logo.png",
+      "links": { "paper": null, "github": null, "status": null }
+    }
+  ],
+
+  "skills": {
+    "dataAnalysisStatisticalMethods": [
+      "Data Cleaning & Wrangling",
+      "Statistical Analysis",
+      "Hypothesis Testing",
+      "A/B Testing",
+      "Regression Modeling",
+      "Time Series Analysis",
+      "Forecasting",
+      "Root Cause Analysis",
+      "Exploratory Data Analysis (EDA)"
+    ],
+    "programmingQueryLanguages": [
+      "SQL (MySQL, PostgreSQL, MS SQL Server)",
+      "Python (Pandas, NumPy, SciPy, Matplotlib, Seaborn)",
+      "R (ggplot2, dplyr, tidyverse, caret)",
+      "DAX",
+      "VBA (Excel Macros & Automation)"
+    ],
+    "dataVisualizationReporting": [
+      "Tableau",
+      "Power BI",
+      "Looker",
+      "QlikView",
+      "Excel (PivotTables, Power Query, VLOOKUP, Macros)",
+      "Data Storytelling",
+      "Dashboard Development",
+      "Automated Reporting"
+    ],
+    "dataEngineeringETL": [
+      "Airflow",
+      "Alteryx",
+      "Informatica",
+      "dbt",
+      "Apache Spark",
+      "Hadoop",
+      "Data Pipeline Design",
+      "Data Integration"
+    ],
+    "dataWarehousingDatabases": [
+      "Snowflake",
+      "Amazon Redshift",
+      "Azure Synapse",
+      "Teradata",
+      "Oracle",
+      "NoSQL (MongoDB, Cassandra)"
+    ],
+    "businessIntelligenceDecisionSupport": [
+      "KPI Design",
+      "Performance Metrics",
+      "Business Requirements Gathering",
+      "Decision Support Systems",
+      "Stakeholder Reporting",
+      "Cross-functional Collaboration",
+      "HIPAA Compliance"
+    ],
+    "machineLearning": [
+      "Scikit-learn",
+      "XGBoost",
+      "Clustering",
+      "Classification",
+      "Feature Engineering",
+      "Model Evaluation Metrics"
+    ],
+    "workflowAgileCollaboration": [
+      "Agile/Scrum Methodologies",
+      "Sprint Planning",
+      "Jira",
+      "Confluence",
+      "Git/GitHub",
+      "Stakeholder Communication"
+    ],
+    "cloudDevOpsIntegration": [
+      "AWS (S3, Athena, Lambda, Redshift)",
+      "Microsoft Azure",
+      "CI/CD Pipelines"
+    ]
+  },
+
+  "projects": [
+    {
+      "id": "financial-transaction-monitoring",
+      "title": "Financial Transaction Monitoring Dashboard",
+      "year": "2023-2024",
+      "shortDescription": "Real-time monitoring system for 12M+ daily financial transactions with automated anomaly detection and compliance reporting.",
+      "detailedDescription": "Designed and implemented a comprehensive real-time monitoring system for JPMorgan Chase processing over 12 million daily financial transactions across credit, lending, and asset management units. Built automated data pipelines using SQL and Python for end-of-day reporting. Created Tableau dashboards tracking intraday exposure, trade volume, and margin movement, reducing reliance on static Excel reports by 90%+. Integrated compliance exception reports that flag 3-5 potential violations per quarter. Optimized SQL scripts for post-trade reconciliation, reducing runtime by 40% through indexing and query restructuring.",
+      "media": {
+        "type": "image",
+        "src": "images/real-time-pipeline.png",
+        "poster": null,
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "controls": false
+      },
+      "techStack": ["SQL", "Python", "Tableau", "PostgreSQL", "AWS", "Data Pipelines", "Financial Analytics"],
+      "links": {
+        "website": null,
+        "github": null,
+        "details": "#financial-transaction-monitoring"
+      },
+      "metrics": [
+        { "label": "Daily Transactions", "value": "12M+" },
+        { "label": "Report Reduction", "value": "90%" },
+        { "label": "Performance Gain", "value": "40%" }
+      ]
+    },
+    {
+      "id": "eeg-brain-mapping-classification",
+      "title": "Advanced EEG Signal Analytics & Classification System",
+      "year": "2023-2024",
+      "shortDescription": "Advanced healthcare analytics system for automated EEG pattern classification using statistical signal processing and machine learning techniques, achieving automated medical diagnostics through data-driven pattern recognition.",
+      "detailedDescription": "Developed an advanced analytics system for automated classification of EEG brain mapping data, applying statistical signal processing and machine learning techniques to distinguish normal from abnormal neural patterns. Implemented 2D Discrete Wavelet Transform for feature extraction from medical imaging data, achieving automated pattern recognition through Mean Square Error statistical analysis. Built end-to-end data pipeline handling image preprocessing, normalization, mathematical transformation, and statistical classification with threshold-based decision making. Created web-based interface for healthcare professionals, demonstrating ability to translate complex analytical methods into practical diagnostic tools. System processes 256x256 pixel medical images through 3-level mathematical decomposition, applying sub-600 MSE threshold for normal pattern identification.",
+      "media": {
+        "type": "image",
+        "src": "images/customer-dashboard.png",
+        "poster": null,
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "controls": false
+      },
+      "techStack": ["Python", "Statistical Signal Processing", "Machine Learning", "NumPy", "PyWavelets", "Flask", "Healthcare Data Analysis", "Pattern Recognition"],
+      "links": {
+        "website": null,
+        "github": "https://github.com/sumitmadhav/brain-mapping-eeg-classification",
+        "details": "#eeg-brain-mapping-classification"
+      },
+      "metrics": [
+        { "label": "Classification Accuracy", "value": "MSE <600" },
+        { "label": "Image Processing", "value": "256x256px" },
+        { "label": "Decomposition Levels", "value": "3-Level DWT" }
+      ]
+    },
+    {
+      "id": "credit-risk-forecasting",
+      "title": "Credit Risk Forecasting Model",
+      "year": "2022-2023",
+      "shortDescription": "Advanced time-series forecasting system for predicting default rates using ARIMA and Prophet models, improving accuracy by 18%.",
+      "detailedDescription": "Developed sophisticated time-series forecasting models at PNC Financial Services to project expected default rates across multiple customer segments. Consolidated customer, transaction, and credit data from 7 different internal systems using PostgreSQL and Python, improving data integrity and reducing reconciliation time by 30%. Built ARIMA and Prophet models in Python, achieving 18% improvement in forecast accuracy over previous methods. Created interactive Power BI dashboards for daily monitoring of loan approval cycle times, contributing to a 2.4-day reduction in average processing time. Conducted A/B tests on customer segmentation strategies, leading to 12% increase in cross-sell success rates.",
+      "media": {
+        "type": "image",
+        "src": "images/ecommerce-analytics.png",
+        "poster": null,
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "controls": false
+      },
+      "techStack": ["Python", "ARIMA", "Prophet", "PostgreSQL", "Power BI", "A/B Testing", "Statistical Modeling"],
+      "links": {
+        "website": null,
+        "github": null,
+        "details": "#credit-risk-forecasting"
+      },
+      "metrics": [
+        { "label": "Forecast Accuracy", "value": "+18%" },
+        { "label": "Data Sources", "value": "7" },
+        { "label": "Processing Time", "value": "-2.4 days" }
+      ]
+    },
+    {
+      "id": "healthcare-readmission-prediction",
+      "title": "Healthcare Readmission Prediction System",
+      "year": "2019-2021",
+      "shortDescription": "Machine learning system predicting 30-day hospital readmissions with 9% accuracy improvement using logistic regression and EHR integration.",
+      "detailedDescription": "Integrated claims, pharmacy, and clinical visit data across multiple EHR systems at Humana into unified tables for risk stratification models, reducing preprocessing time by 35%. Developed logistic regression models in R to predict hospital readmission within 30 days, enabling 9% more accurate identification of high-risk members for early outreach programs. Created parameterized Tableau dashboards to track plan utilization, allowing product managers to identify underused services and adjust plan designs with data-backed evidence. Applied de-identification techniques to maintain HIPAA compliance, masking PII and enabling secure sharing of data across care teams and third-party vendors. Documented SQL transformation logic and data lineage to support CMS audit requirements.",
+      "media": {
+        "type": "image",
+        "src": "images/customer-dashboard.png",
+        "poster": null,
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "controls": false
+      },
+      "techStack": ["R", "Logistic Regression", "Tableau", "SQL", "EHR Integration", "HIPAA Compliance", "Healthcare Analytics"],
+      "links": {
+        "website": null,
+        "github": null,
+        "details": "#healthcare-readmission-prediction"
+      },
+      "metrics": [
+        { "label": "Accuracy Improvement", "value": "+9%" },
+        { "label": "Preprocessing Time", "value": "-35%" },
+        { "label": "Compliance", "value": "HIPAA" }
+      ]
+    },
+    {
+      "id": "hospital-operations-analytics",
+      "title": "Hospital Operations Analytics Platform",
+      "year": "2016-2018",
+      "shortDescription": "Multi-facility operations analytics system monitoring discharge patterns across 60+ hospitals, reducing delays by 12% year-over-year.",
+      "detailedDescription": "Monitored patient discharge patterns across 60+ hospital facilities at Tenet Healthcare, uncovering bottlenecks in transition-of-care processes that were addressed to reduce delays by 12% year over year. Led the development of ETL jobs in SQL Server to consolidate patient vitals and procedure records, cutting nightly data refresh times from 8 hours to under 2 hours. Performed root cause analysis on repeated readmissions within a 30-day window, contributing findings that informed changes to discharge planning protocols and yielded a 5% reduction in unplanned returns. Built and validated data quality checks for billing systems, detecting anomalies in procedure codes and reducing claim rejection rates by 11% across two fiscal cycles. Developed visual reports for physician scheduling metrics and staffing ratios using Excel and VBA.",
+      "media": {
+        "type": "image",
+        "src": "images/multi-cloud-etl.png",
+        "poster": null,
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "controls": false
+      },
+      "techStack": ["SQL Server", "ETL", "Excel", "VBA", "Healthcare Operations", "Data Quality", "Root Cause Analysis"],
+      "links": {
+        "website": null,
+        "github": null,
+        "details": "#hospital-operations-analytics"
+      },
+      "metrics": [
+        { "label": "Facilities Monitored", "value": "60+" },
+        { "label": "Discharge Delays", "value": "-12%" },
+        { "label": "Refresh Time", "value": "8h → 2h" }
+      ]
+    },
+    {
+      "id": "database-migration-optimization",
+      "title": "Enterprise Database Migration & Optimization",
+      "year": "2014",
+      "shortDescription": "Large-scale database migration and optimization project handling 15M+ records with 45% performance improvement and zero data loss.",
+      "detailedDescription": "Created optimized stored procedures for 3 large-scale financial services clients at Cybage Software, reducing SQL execution times by up to 45% through schema normalization and query tuning. Assisted in the development and deployment of ETL pipelines using SSIS to support daily batch updates to client-facing reporting databases, reducing refresh delays by over 2 hours. Validated over 50 complex database views and joins used in legacy BI dashboards, identifying logic flaws that were corrected before a major product release. Maintained SQL Server Agent jobs and monitored error logs to ensure 99.9% uptime of scheduled database refresh tasks. Created data migration scripts that successfully moved over 15 million records during a legacy system decommissioning, completing the task within a 48-hour window without data loss.",
+      "media": {
+        "type": "image",
+        "src": "images/infrastructure-code.png",
+        "poster": null,
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "controls": false
+      },
+      "techStack": ["SQL Server", "SSIS", "Stored Procedures", "Database Optimization", "ETL Pipelines", "Data Migration"],
+      "links": {
+        "website": null,
+        "github": null,
+        "details": "#database-migration-optimization"
+      },
+      "metrics": [
+        { "label": "Performance Gain", "value": "45%" },
+        { "label": "Records Migrated", "value": "15M+" },
+        { "label": "System Uptime", "value": "99.9%" }
+      ]
+    },
+    {
+      "id": "customer-segmentation-rfm-analysis",
+      "title": "Customer Segmentation & RFM Analysis",
+      "year": "2022-2023",
+      "shortDescription": "Comprehensive customer segmentation analysis for automobile bike company using RFM modeling, creating 11 distinct customer segments for targeted marketing strategies.",
+      "detailedDescription": "Developed an advanced customer segmentation solution for an automobile bike company using RFM (Recency, Frequency, Monetary) analysis methodology. Conducted comprehensive data quality assessment across multiple datasets including customer demographics, transactions, and addresses, implementing data cleaning and standardization processes. Performed extensive exploratory data analysis revealing key insights on age distribution, gender-based purchasing patterns, job industry customer distribution, and wealth segmentation across age groups. Created 11 distinct customer segments including Platinum Customers, Very Loyal Customers, Potential Customers, and Lost Customers. Built interactive Tableau dashboards for visualization and implemented Python-based analytics using pandas, matplotlib, and seaborn. Delivered actionable insights enabling targeted marketing campaigns and strategic decision-making for sales and customer engagement optimization.",
+      "media": {
+        "type": "image",
+        "src": "images/ecommerce-analytics.png",
+        "poster": null,
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "controls": false
+      },
+      "techStack": ["Python", "Pandas", "Matplotlib", "Seaborn", "Tableau", "RFM Analysis", "Customer Segmentation", "Data Cleaning"],
+      "links": {
+        "website": null,
+        "github": "https://github.com/sumitmadhav/data-analytics-customer-segmentation",
+        "details": "#customer-segmentation-rfm-analysis"
+      },
+      "metrics": [
+        { "label": "Customer Segments", "value": "11" },
+        { "label": "Analysis Method", "value": "RFM" },
+        { "label": "Industry Focus", "value": "Automotive" }
+      ]
+    },
+    {
+      "id": "banking-financial-insights-dashboard",
+      "title": "Banking Analytics & Branch Performance Dashboard",
+      "year": "2021-2022",
+      "shortDescription": "Advanced Power BI financial analytics system for banking institutions featuring branch efficiency ratings, credit score analysis, and strategic decision-making support.",
+      "detailedDescription": "Developed a comprehensive financial analytics system using Power BI for banking institutions, analyzing transaction and customer account datasets to drive strategic decision-making. Implemented advanced DAX calculations and data relationship mapping to create an interactive dashboard system. Designed branch efficiency rating methodology to evaluate performance across multiple locations. Created sophisticated credit score analysis workflows and high-value transaction identification systems. Built predictive modeling capabilities for account growth forecasting and customer demographic insights. Delivered enhanced risk management tools, customer satisfaction metrics, and performance analytics enabling banks to make data-driven strategic decisions. The system provides real-time insights into transaction trends, loan performance, and interest rate analysis across the entire banking operation.",
+      "media": {
+        "type": "image",
+        "src": "images/compliance-reporting.png",
+        "poster": null,
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "controls": false
+      },
+      "techStack": ["Power BI", "DAX", "Banking Analytics", "Credit Score Analysis", "Financial Modeling", "Risk Management", "Performance Metrics"],
+      "links": {
+        "website": null,
+        "github": "https://github.com/sumitmadhav/financial-insights-in-banking-data-using-powerbi",
+        "details": "#banking-financial-insights-dashboard"
+      },
+      "metrics": [
+        { "label": "Branch Efficiency", "value": "Multi-Branch" },
+        { "label": "Analytics Type", "value": "Credit & Risk" },
+        { "label": "Decision Support", "value": "Strategic" }
+      ]
+    },
+    {
+      "id": "personal-finance-database-system",
+      "title": "Personal Finance Database & Dimensional Modeling",
+      "year": "2020-2021",
+      "shortDescription": "End-to-end personal finance tracking system using MySQL dimensional modeling, featuring ETL processes and Power BI visualization for spending pattern analysis.",
+      "detailedDescription": "Architected and implemented a comprehensive personal finance tracking system using MySQL with dimensional data modeling principles. Designed a star schema database called 'spend_save' featuring 4 dimension tables and 1 fact table for optimal analytical performance. Developed ETL processes using Python, NumPy, Pandas, and SQLAlchemy to transform raw banking CSV data into structured analytical datasets. Implemented advanced SQL views for financial analysis and created Power BI dashboards with DAX calculations for visual insights. The system captures and processes financial transactions across multiple account types with automated categorization and time-based analysis capabilities. Delivered comprehensive spending pattern identification, enabling personal financial insights and data-driven budgeting decisions. Project demonstrates expertise in database architecture, dimensional modeling, and end-to-end data pipeline development.",
+      "media": {
+        "type": "image",
+        "src": "images/snowflake-migration.png",
+        "poster": null,
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "controls": false
+      },
+      "techStack": ["MySQL", "Python", "SQLAlchemy", "Dimensional Modeling", "ETL Pipelines", "Power BI", "DAX", "Database Architecture"],
+      "links": {
+        "website": null,
+        "github": "https://github.com/sumitmadhav/finances-database",
+        "details": "#personal-finance-database-system"
+      },
+      "metrics": [
+        { "label": "Database Design", "value": "Star Schema" },
+        { "label": "Table Structure", "value": "4 Dim + 1 Fact" },
+        { "label": "ETL Automation", "value": "Full Pipeline" }
+      ]
+    },
+    {
+      "id": "advanced-excel-vba-automation",
+      "title": "Advanced Excel Analytics & VBA Automation",
+      "year": "2019-2020",
+      "shortDescription": "Enterprise-level Excel solutions featuring VBA macro development, Power Query automation, and dynamic dashboards for comprehensive business analytics.",
+      "detailedDescription": "Developed a comprehensive suite of advanced Excel and VBA solutions demonstrating enterprise-level analytical capabilities across multiple business domains. Created dynamic financial dashboards consolidating profit, revenue, expenses, and KPIs with real-time data updates. Built sophisticated inventory management systems using VBA macros that generate automated alerts when stock levels fall below predefined thresholds. Implemented customer segmentation models enabling marketing teams to target high-value customers through data-driven insights. Developed advanced Excel formulas including VLOOKUP, INDEX-MATCH, and complex conditional logic for automated business processes. Leveraged Power Query and Power Pivot for advanced data transformation and modeling. Created comprehensive project management tracking systems and employee performance assessment tools. Demonstrated progressive skill development from foundational Excel techniques to complex VBA scripting, emphasizing systematic transformation of raw data into actionable business intelligence.",
+      "media": {
+        "type": "image",
+        "src": "images/infrastructure-code.png",
+        "poster": null,
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "controls": false
+      },
+      "techStack": ["Excel", "VBA", "Power Query", "Power Pivot", "Macro Development", "Dynamic Dashboards", "Financial Modeling", "Inventory Management"],
+      "links": {
+        "website": null,
+        "github": "https://github.com/sumitmadhav/excel-portfolio-project",
+        "details": "#advanced-excel-vba-automation"
+      },
+      "metrics": [
+        { "label": "Automation Type", "value": "VBA Macros" },
+        { "label": "Dashboard Style", "value": "Dynamic" },
+        { "label": "Business Domains", "value": "Multi-Domain" }
+      ]
+    }
+  ],
+
+  "certifications": [],
+
+  "education": [
+    {
+      "degree": "Master's in Information System",
+      "institution": "South University",
+      "location": "Tampa, FL",
+      "year": "Dec 2015",
+      "logo": "images/edu/south-university.png"
+    },
+    {
+      "degree": "Bachelor's in Computer Science",
+      "institution": "Mumbai University",
+      "location": "Mumbai, India",
+      "year": "May 2013",
+      "logo": "images/edu/mumbai-university.svg"
+    }
+  ],
+
+  "siteConfig": {
+    "siteTitle": "Sumit Suresh Madhav - Data Analyst",
+    "favicon": null,
+    "themeColors": {
+      "primaryRed": "#2E86AB",
+      "lightRed": "#3498DB",
+      "darkRed": "#1B4F72",
+      "textDark": "#2C3E50",
+      "textLight": "#6c757d",
+      "bgLight": "#f8f9fa",
+      "white": "#ffffff"
+    },
+    "domain": null,
+    "googleAnalytics": null
+  }
+}
