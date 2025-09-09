@@ -169,6 +169,33 @@
 
   "projects": [
     {
+      "id": "financial-transaction-monitoring",
+      "title": "Financial Transaction Monitoring Dashboard",
+      "year": "2023-2024",
+      "shortDescription": "Real-time monitoring system for 12M+ daily financial transactions with automated anomaly detection and compliance reporting.",
+      "detailedDescription": "Designed and implemented a comprehensive real-time monitoring system for JPMorgan Chase processing over 12 million daily financial transactions across credit, lending, and asset management units. Built automated data pipelines using SQL and Python for end-of-day reporting. Created Tableau dashboards tracking intraday exposure, trade volume, and margin movement, reducing reliance on static Excel reports by 90%+. Integrated compliance exception reports that flag 3-5 potential violations per quarter. Optimized SQL scripts for post-trade reconciliation, reducing runtime by 40% through indexing and query restructuring.",
+      "media": {
+        "type": "image",
+        "src": "images/real-time-pipeline.png",
+        "poster": null,
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "controls": false
+      },
+      "techStack": ["SQL", "Python", "Tableau", "PostgreSQL", "AWS", "Data Pipelines", "Financial Analytics"],
+      "links": {
+        "website": null,
+        "github": null,
+        "details": "#financial-transaction-monitoring"
+      },
+      "metrics": [
+        { "label": "Daily Transactions", "value": "12M+" },
+        { "label": "Report Reduction", "value": "90%" },
+        { "label": "Performance Gain", "value": "40%" }
+      ]
+    },
+    {
       "id": "eeg-brain-mapping-classification",
       "title": "Advanced EEG Signal Analytics & Classification System",
       "year": "2023-2024",
