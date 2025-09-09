@@ -171,7 +171,7 @@
     {
       "id": "eeg-brain-mapping-classification",
       "title": "Advanced EEG Signal Analytics & Classification System",
-      "year": "2023-2024",
+      "year": "2013-2014",
       "shortDescription": "Advanced healthcare analytics system for automated EEG pattern classification using statistical signal processing and machine learning techniques, achieving automated medical diagnostics through data-driven pattern recognition.",
       "detailedDescription": "Developed an advanced analytics system for automated classification of EEG brain mapping data, applying statistical signal processing and machine learning techniques to distinguish normal from abnormal neural patterns. Implemented 2D Discrete Wavelet Transform for feature extraction from medical imaging data, achieving automated pattern recognition through Mean Square Error statistical analysis. Built end-to-end data pipeline handling image preprocessing, normalization, mathematical transformation, and statistical classification with threshold-based decision making. Created web-based interface for healthcare professionals, demonstrating ability to translate complex analytical methods into practical diagnostic tools. System processes 256x256 pixel medical images through 3-level mathematical decomposition, applying sub-600 MSE threshold for normal pattern identification.",
       "media": {
