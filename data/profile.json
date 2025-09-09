@@ -168,7 +168,7 @@
   },
 
   "projects": [
-    {
+/*  {
       "id": "financial-transaction-monitoring",
       "title": "Financial Transaction Monitoring Dashboard",
       "year": "2023-2024",
@@ -194,7 +194,7 @@
         { "label": "Report Reduction", "value": "90%" },
         { "label": "Performance Gain", "value": "40%" }
       ]
-    },
+    }, */
     {
       "id": "eeg-brain-mapping-classification",
       "title": "Advanced EEG Signal Analytics & Classification System",
@@ -222,7 +222,7 @@
         { "label": "Decomposition Levels", "value": "3-Level DWT" }
       ]
     },
-    {
+/*   {
       "id": "credit-risk-forecasting",
       "title": "Credit Risk Forecasting Model",
       "year": "2022-2023",
@@ -248,8 +248,8 @@
         { "label": "Data Sources", "value": "7" },
         { "label": "Processing Time", "value": "-2.4 days" }
       ]
-    },
-    {
+    }, */
+/*   {
       "id": "healthcare-readmission-prediction",
       "title": "Healthcare Readmission Prediction System",
       "year": "2019-2021",
@@ -275,8 +275,8 @@
         { "label": "Preprocessing Time", "value": "-35%" },
         { "label": "Compliance", "value": "HIPAA" }
       ]
-    },
-    {
+    }, */
+/*   {
       "id": "hospital-operations-analytics",
       "title": "Hospital Operations Analytics Platform",
       "year": "2016-2018",
@@ -302,8 +302,8 @@
         { "label": "Discharge Delays", "value": "-12%" },
         { "label": "Refresh Time", "value": "8h → 2h" }
       ]
-    },
-    {
+    }, */
+ /*  {
       "id": "database-migration-optimization",
       "title": "Enterprise Database Migration & Optimization",
       "year": "2014",
@@ -329,7 +329,7 @@
         { "label": "Records Migrated", "value": "15M+" },
         { "label": "System Uptime", "value": "99.9%" }
       ]
-    },
+    }, */
     {
       "id": "customer-segmentation-rfm-analysis",
       "title": "Customer Segmentation & RFM Analysis",
