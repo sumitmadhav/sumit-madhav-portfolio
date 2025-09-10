@@ -297,7 +297,7 @@
         
         return `
             <div class="project-categories">
-                <button class="category-btn active" data-category="all">All Projects</button>
+                <button class="category-btn active" data-category="all">Personal GitHub Projects</button>
                 ${categories.map(category => `
                     <button class="category-btn" data-category="${category}">
                         ${category === 'academic' ? 'Academic' : category === 'github' ? 'Portfolio' : category}
